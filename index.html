@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4f9ae482e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h2>Todo List</h2>
+      <section class="primero">
+        <hr />
+        <h4>Nueva tarea</h4>
+        <input type="text" id="nueva-tarea" />
+        <button id="btn-add"><strong>Agregar</strong></button>
+      </section>
+      <section class="segundo">
+        <div class="conteo">
+          <p>Total: <span id="total"></span></p>
+          <p>Realizadas: <span id="realizadas"></span></p>
+        </div>
+        <div class="tareas grid-container"></div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
